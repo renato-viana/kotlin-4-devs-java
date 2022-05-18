@@ -16,5 +16,8 @@ public class HelloKotlinFromJava {
         Integer maxInt = MaxKt.max(2001, 2022);
         System.out.printf("The max value is %d %n", maxInt);
 
+        person.setAge(36);
+        System.out.printf("His age is %d %n", person.getAge());
+
     }
 }
